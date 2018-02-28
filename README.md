@@ -17,7 +17,6 @@ Jenkins
 
 
 
-
 ...
 
-These dots mean I am not done yet. Stay tuned
+These dots mean more things on the way. Stay tuned.
