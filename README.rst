@@ -1,22 +1,18 @@
-# #Software Engineer #Software Development Engineer
+Software Engineer/Software Development Engineer/Research Scientist
+-------------------------------------------------------------------
 
 Hi, This is Mayur S Patil. 
 
-I am actively looking for Software Engineer or Software Development Engineer.
+I am actively looking for Software Engineer or Software Development Engineer or Research Scientist Positions Full Time.
 
 I have 4 years teaching Experience. 
 
-These are following things on which I can work very easily:
-Version Control (To make sense for useful code and reject nonsense code of brilliant developers)
-Git : Windows, Linux command line, Git GUI, TortoiseGit
-SVN : TortoiseSVN
+Looking for Full Time opportunity in following areas:
+    * Python
+    * AWS
+    * Openstack
+    * Virtualization
+    * Cloud
 
-Build Automation (To make brakers more active):
-Jenkins
-
-
-
-
-...
-
-These dots mean more things on the way. Stay tuned.
+Presumption is that I know about **Linux command line**, **Git**, **Jira**, **Docker**, **Kubernetes**, `Bash-Script(Entry Level)
+<https://github.com/ramlaxman/eucalyptus-automated-installation>`_.
