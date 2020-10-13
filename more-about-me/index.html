@@ -44,33 +44,257 @@ body {font-family: Arial;}
 </style>
 </head>
 <body>
+<p>
+        नमस्कार. माझ्या Page ला भेट दिल्याबद्दल आभारी.अधिक जाणण्यासाठी खालील शब्दांवर Click करा.
+        <br><br>
+        Hi, Thanks for visiting page of . I'm a regular professor at Engineering College and <b><i> an explorer
+            </i></b> who like to and live life at its fullest. Following sections are the list of achievements and
+        hobbies: </p>
+    
+    <h2>छंद</h2>
+    <p>Click on the Topics to know more: </p>
 
-<h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
+    <div class="tab">
+        <button class="tablinks" onclick="openHobb(event,'Qualities')">Qualities</button>
+        <button class="tablinks" onclick="openHobb(event,'Reading')">वाचन</button>
+        <button class="tablinks" onclick="openHobb(event,'Music-Singing')">संगीत-गायन</button>
+        <button class="tablinks" onclick="openHobb(event,'Religion')">धर्म</button>
+        <button class="tablinks" onclick="openHobb(event,'Serials')">मालिका</button>
+    </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
+    <div id="Qualities" class="tabcontent">
+        <details>
+            <summary> <b>Personal Qualities</b>
+            </summary>
+            <ol>
+                <li>Calm</li>
+                <li>Ambitious</li>
+                <li>Active</li>
+                <li>Artist</li>
+                <li>Enthusiastic</li>
+            </ol>
+        </details>
+        <br>
+        <details>
+            <summary> <b>Interpersonal Qualities</b></summary>
+            <ol>
+                <li>Honest</li>
+                <li>Mature</li>
+                <li>Friendly</li>
+                <li>Loyal</li>
+                <li>Responsible</li>
+                <li>Understanding</li>
+                <li>Easy Going</li>
+                <li>Frank</li>
+                <li>Supportive</li>
+            </ol>
+        </details>
+        </details>
+    </div>
 
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+    <div id="Reading" class="tabcontent">
+        <h3>वाचन</h3>
+        <details>
+            <summary><b>मराठी</b></summary>
+            <ul>
+                <li>दास डोंगरी राहतो - समर्थ रामदास स्वामी</li>
+                <li>शांतीब्रह्म - संत एकनाथ</li>
+                <li>श्री गोंदवलेकर महाराज - चरित्र आणि वाडमय</li>
+                <li>छावा</li>
+                <li>श्रीमान योगी</li>
+                <li>असा मी असामी</li>
+                <li>स्वामी विवेकानंद चरित्र</li>
+            </ul>
+        </details>
+        <br>
+        <details>
+            <summary><b>English</b></summary>
+            <ul>
+                <li>Computer Science Related Top Books</li>
+            </ul>
+        </details>
+    </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p> 
-</div>
+    <div id="Music-Singing" class="tabcontent">
+        <details>
+            <summary><b>मराठी</b></summary>
+            <nav>
+                <ul>
+                    <b>भावगीते</b>
+                    <li>स्वरगंगेच्या काठावरती </li>
+                    <li>दिवस तुझे हे फ़ुलायचे </li>
+                    <li>डोळ्यात सांजवेळी </li>
+                    <li>इतर </li>
+                </ul>
+                <ul>
+                    <b>नाट्यगीते</b>
+                    <li>बालगंधर्व </li>
+                    <li>कट्यार काळजात घुसली </li>
+                    <li>इतर </li>
+                </ul>
+                <ul>
+                    <b>भजन</b>
+                    <li>राजस सुकुमार </li>
+                    <li>दत्त-करुणात्रिपदी </li>
+                    <li>इतर </li>
+                </ul>
+                <ul>
+                    <b>चित्रपट</b>
+                    <li>वाऱ्यावरती गंध</li>
+                    <li>जीव रंगला </li>
+                    <li>राधा ही बावरी</li>
+                </ul>
+            </nav>
+        </details>
+        <br>
+        <details>
+            <summary><b>हिंदी</b></summary>
+            <nav>
+                <ul>
+                    <b>फ़िल्मी</b>
+                    <li>रॉकस्टार </li>
+                    <li>वीर-जारा </li>
+                    <li>इतर </li>
+                </ul>
+                <ul>
+                    <b>शास्त्रीय </b>
+                    <li> हवेली संगीत </li>
+                    <li> तानसेन </li>
+                </ul>
+                <ul>
+                    <b> भजन </b>
+                    <li> राम का गुणगान करिये </li>
+                    <li> राम भजो आराम तजो </li>
+                </ul>
+            </nav>
+        </details>
+        <br>
+        <details>
+            <summary><b>संस्कृत</b></summary>
+            <nav>
+                <ul>
+                    <b>स्तोत्र</b>
+                    <li>श्रीरामरक्षा स्तोत्र</li>
+                    <li>आदित्य ह्रदय स्तोत्र </li>
+                </ul>
+                <ul>
+                    <b>कवच</b>
+                    <li>श्रीहनुमानकवच </li>
+                    <li>श्रीसूर्यकवच </li>
+                </ul>
+                <ul>
+                    <b>अष्टक</b>
+                    <li>शिवाष्टक</li>
+                    <li>रामाष्टक</li>
+                </ul>
+                <ul>
+                    <b>स्तुती</b>
+                    <li>हनुमान स्तुती</li>
+                    <li>देवी स्तुती</li>
+                </ul>
+            </nav>
+        </details>
+        <br>
+        <details>
+            <summary><b>English</b></summary>
+            <nav>
+                <ul>
+                    <b>Pop</b>
+                    <li>Bailamos</li>
+                    <li>Beautiful to me</li>
+                    <li>Blinding Lights </li>
+                </ul>
+                <ul>
+                    <b>Rock</b>
+                    <li>Linkin Park</li>
+                    <li>Breaking Benjamin</li>
+                </ul>
+            </nav>
+        </details>
+        <br>
+        <details>
+            <summary><b>Movie Songs in Other Languages </b></summary>
+            <nav>
+                <ul>
+                    <li>Telugu - Uppenantha</li>
+                    <li>Kannada </li>
+                    <li>Tamil - Azada Mazhada</li>
+                    <li>Bangla - Akasher Nile</li>
+                    <li>Malayalam - Rahasyamayi</li>
+                    <li>Punjabi - Channa Vey</li>
+                </ul>
+            </nav>
+        </details>
+    </div>
+    <div id="Religion" class="tabcontent">
+        <details>
+            <summary><b>मराठी</b></summary>
+            <nav>
+                <ul>
+                    हिंदू धर्माबद्दल नवनवीन गोष्टी जाणून घ्यायला उत्सुकता असते.
+                    <h4>
+                        <li>श्रीराम</li>
+                        <li>महादेव</li>
+                        <li>श्रीहनुमान</li>
+                        <li>श्रीदत्त</li>
+                        <li>श्रीकृष्ण</li>
+                        <li>परंपरा आणि पद्धती</li>
+                    </h4>
+                </ul>
+            </nav>
+        </details>
+    </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
+    <div id="Serials" class="tabcontent">
+        <details>
+            <summary><b>मालिका</b></summary>
+            <nav>
+                <ul>
+                    <b>मराठी</b>
+                    <li>श्रीयुत गंगाधर टिपरे</li>
+                    <li> ह.म.बने तु.म.बने</li>
+                </ul>
+                <ul>
+                    <b>हिंदी</b>
+                    <li>श्रीमान श्रीमती (Old)</li>
+                    <li>Yes Boss</li>
+                    <li>Khichadi</li>
+                    <li>Sarabhai vs Sarabhai</li>
+                    <li>Ramayan</li>
+                    <li>Shri Krishna</li>
+                    <li>Devon Ke Dev... Mahadev</li>
+                    <li>Vikraal Aur Gabraal</li>
+                    <li>तहकीकात</li>
+                    <li>करमचंद</li>
+                    <li>सुराग</li>
+                    <li>सुमित संभाल लेगा</li>
+                    <li>Laughter Challenge</li>
+                    <li>Fear Files</li>
+                </ul>
+                <ul>
+                    <b>English</b>
+                    <br>
+                    <br>
+                    <i>Sitcom</i>
+                    <li>The Office - US</li>
+                    <li>Seinfeld </li>
+                    <li>Brooklyn 99</li>
+                    <br>
+                    <i>Drama</i>
+                    <li>Parenthood</li>
+                    <li>The Middle</li>
+                    <li>House MD</li>
+                    <br>
+                    <i>Horror</i>
+                    <li>Supernatural</li>
+                    <li>The Originals</li>
+                </ul>
+            </nav>
+        </details>
+    </div>
 
 <script>
-function openCity(evt, cityName) {
+function openHobb(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
