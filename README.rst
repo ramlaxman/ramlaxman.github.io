@@ -1,4 +1,4 @@
-Software Engineer/Software Development Engineer/Research Scientist
+Subject Matter Expert / Technical Writer / Curriculum Developer
 -------------------------------------------------------------------
 
 Hi, This is Mayur S Patil. 
